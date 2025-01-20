@@ -1,0 +1,10 @@
+name: "Setup fixture"
+description: "Setup fixture for testing"
+inputs:
+  fixture:
+    description: "Fixture to setup"
+    required: true
+    default: "fixture.json"
+runs:
+  using: "node20"
+  main: "src/index.js"
